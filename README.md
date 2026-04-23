@@ -34,19 +34,25 @@
 Rental Housing Stress Analysis: Regina & Saskatoon/
 
 │
-├── Dataset/
-│ ├── Rental_Data.xlsx
-│ └── Income_Data.xlsx
-│
+
+│── Dataset/
+
+│   ├── Rental_Data.xlsx
+
+│   ├── Income_Data.xlsx             
+
+│ 
+
 ├── Code/
-│ └── Rental_Income_Analysis.ipynb
+
+│   ├── Rental_Income_Analysis.ipynb                        
+
 │
+
 ├── Dashboards/
-│ └── Final_Dashboard.pbix
+
+│   ├── Final_Dashboard.pbix   
+
 │
-├── Documentation/
-│ ├── Final_Report.docx
-│ └── Presentation.pptx
-│
-└── README.md
+
 
