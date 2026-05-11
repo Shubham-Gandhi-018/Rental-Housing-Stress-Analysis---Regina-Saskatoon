@@ -55,6 +55,11 @@ Rental Housing Stress Analysis: Regina & Saskatoon/
 
 │
 
+├── Documentation/
+
+│   ├── Presentation.pptx
+
+│   ├── Report.pdf
 
 ---
 
@@ -125,11 +130,13 @@ The project follows a structured, multi-step pipeline to analyze rental housing 
 To solve this, **provincial income growth rates** were used to estimate missing values.
 
 #### ➤ Growth Rate Calculation:
-Growth Rate = (Income_t − Income_(t−1)) / Income_(t−1)
+Growth Rate (t) = (Income_t − Income_(t−1)) / Income_(t−1)
 
-#### ➤ Income Estimation:
+#### ➤ Income Estimation (Following Years):
 Income_t = Income_(t−1) × (1 + Growth Rate)
 
+#### ➤ Income Estimation (Previous Years):
+Income_t = Income_(t+1) / (1 + Growth Rate (t+1))
 ---
 
 ✔ This allowed:
@@ -181,7 +188,7 @@ Key indicators were created:
 
 ---
 
-📌 *Refer to the project report or presentation for detailed methodology flow diagram.*
+📌 *Refer to the project report and presentation for detailed methodology flow diagram.*
 
 ## 📈 Key Insights
 
